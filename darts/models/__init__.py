@@ -84,3 +84,12 @@ from darts.models.forecasting.baselines import NaiveEnsembleModel
 
 # Ensembling
 from darts.models.forecasting.ensemble_model import EnsembleModel
+
+# HS: NLSS
+from darts.models.forecasting.nlss_model import LSS
+from darts.models.forecasting.nlss_model import LSS_Takens
+from darts.models.forecasting.nlss_model import NLSS
+#from darts.models.forecasting.nlss_model import NLSS_Noiseless
+#from darts.models.forecasting.nlss_model import NLSS_Sampling
+from darts.models.forecasting.nlss_model import NLSS_Takens
+from darts.models.forecasting.nlss_model import RBF_Takens
